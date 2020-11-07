@@ -6,5 +6,5 @@ declare type Option = {
 declare type SelectProps = {
     options: Option[];
 };
-declare const Select: import("react").ForwardRefExoticComponent<SelectProps & import("react").RefAttributes<HTMLSelectElement>>;
+declare const Select: React.ForwardRefExoticComponent<SelectProps & React.RefAttributes<HTMLSelectElement>>;
 export { Select, SelectProps, Option };
