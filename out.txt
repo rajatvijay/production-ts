@@ -1,0 +1,170 @@
+yarn run v1.22.4
+$ tsc
+======== Resolving module 'axios' from '/Users/rajatvijay/projects/production-ts/src/api.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+'baseUrl' option is set to '/Users/rajatvijay/projects/production-ts', using this value to resolve non-relative module name 'axios'.
+'paths' option is specified, looking for a pattern to match module name 'axios'.
+'baseUrl' option is set to '/Users/rajatvijay/projects/production-ts', using this value to resolve non-relative module name 'axios'.
+Resolving module name 'axios' relative to base url '/Users/rajatvijay/projects/production-ts' - '/Users/rajatvijay/projects/production-ts/axios'.
+Loading module as file / folder, candidate module location '/Users/rajatvijay/projects/production-ts/axios', target file type 'TypeScript'.
+File '/Users/rajatvijay/projects/production-ts/axios.ts' does not exist.
+File '/Users/rajatvijay/projects/production-ts/axios.tsx' does not exist.
+File '/Users/rajatvijay/projects/production-ts/axios.d.ts' does not exist.
+Directory '/Users/rajatvijay/projects/production-ts/axios' does not exist, skipping all lookups in it.
+Loading module 'axios' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/rajatvijay/projects/production-ts/src/node_modules' does not exist, skipping all lookups in it.
+Found 'package.json' at '/Users/rajatvijay/projects/production-ts/node_modules/axios/package.json'.
+'package.json' does not have a 'typesVersions' field.
+File '/Users/rajatvijay/projects/production-ts/node_modules/axios.ts' does not exist.
+File '/Users/rajatvijay/projects/production-ts/node_modules/axios.tsx' does not exist.
+File '/Users/rajatvijay/projects/production-ts/node_modules/axios.d.ts' does not exist.
+'package.json' has 'typings' field './index.d.ts' that references '/Users/rajatvijay/projects/production-ts/node_modules/axios/index.d.ts'.
+File '/Users/rajatvijay/projects/production-ts/node_modules/axios/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/rajatvijay/projects/production-ts/node_modules/axios/index.d.ts', result '/Users/rajatvijay/projects/production-ts/node_modules/axios/index.d.ts'.
+======== Module name 'axios' was successfully resolved to '/Users/rajatvijay/projects/production-ts/node_modules/axios/index.d.ts' with Package ID 'axios/index.d.ts@0.21.0'. ========
+======== Resolving module 'react' from '/Users/rajatvijay/projects/production-ts/src/index.tsx'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+'baseUrl' option is set to '/Users/rajatvijay/projects/production-ts', using this value to resolve non-relative module name 'react'.
+'paths' option is specified, looking for a pattern to match module name 'react'.
+Module name 'react', matched pattern 'react'.
+Trying substitution 'types', candidate module location: 'types'.
+Loading module as file / folder, candidate module location '/Users/rajatvijay/projects/production-ts/types', target file type 'TypeScript'.
+File '/Users/rajatvijay/projects/production-ts/types.ts' does not exist.
+File '/Users/rajatvijay/projects/production-ts/types.tsx' does not exist.
+File '/Users/rajatvijay/projects/production-ts/types.d.ts' does not exist.
+File '/Users/rajatvijay/projects/production-ts/types/package.json' does not exist.
+File '/Users/rajatvijay/projects/production-ts/types/index.ts' does not exist.
+File '/Users/rajatvijay/projects/production-ts/types/index.tsx' does not exist.
+File '/Users/rajatvijay/projects/production-ts/types/index.d.ts' exist - use it as a name resolution result.
+======== Module name 'react' was successfully resolved to '/Users/rajatvijay/projects/production-ts/types/index.d.ts'. ========
+======== Resolving type reference directive 'minimist', containing file '/Users/rajatvijay/projects/production-ts/__inferred type names__.ts', root directory '/Users/rajatvijay/projects/production-ts/node_modules/@types'. ========
+Resolving with primary search path '/Users/rajatvijay/projects/production-ts/node_modules/@types'.
+Found 'package.json' at '/Users/rajatvijay/projects/production-ts/node_modules/@types/minimist/package.json'.
+'package.json' does not have a 'typesVersions' field.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File '/Users/rajatvijay/projects/production-ts/node_modules/@types/minimist/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/rajatvijay/projects/production-ts/node_modules/@types/minimist/index.d.ts', result '/Users/rajatvijay/projects/production-ts/node_modules/@types/minimist/index.d.ts'.
+======== Type reference directive 'minimist' was successfully resolved to '/Users/rajatvijay/projects/production-ts/node_modules/@types/minimist/index.d.ts' with Package ID '@types/minimist/index.d.ts@1.2.0', primary: true. ========
+======== Resolving type reference directive 'normalize-package-data', containing file '/Users/rajatvijay/projects/production-ts/__inferred type names__.ts', root directory '/Users/rajatvijay/projects/production-ts/node_modules/@types'. ========
+Resolving with primary search path '/Users/rajatvijay/projects/production-ts/node_modules/@types'.
+Found 'package.json' at '/Users/rajatvijay/projects/production-ts/node_modules/@types/normalize-package-data/package.json'.
+'package.json' does not have a 'typesVersions' field.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File '/Users/rajatvijay/projects/production-ts/node_modules/@types/normalize-package-data/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/rajatvijay/projects/production-ts/node_modules/@types/normalize-package-data/index.d.ts', result '/Users/rajatvijay/projects/production-ts/node_modules/@types/normalize-package-data/index.d.ts'.
+======== Type reference directive 'normalize-package-data' was successfully resolved to '/Users/rajatvijay/projects/production-ts/node_modules/@types/normalize-package-data/index.d.ts' with Package ID '@types/normalize-package-data/index.d.ts@2.4.0', primary: true. ========
+======== Resolving type reference directive 'prop-types', containing file '/Users/rajatvijay/projects/production-ts/__inferred type names__.ts', root directory '/Users/rajatvijay/projects/production-ts/node_modules/@types'. ========
+Resolving with primary search path '/Users/rajatvijay/projects/production-ts/node_modules/@types'.
+Found 'package.json' at '/Users/rajatvijay/projects/production-ts/node_modules/@types/prop-types/package.json'.
+'package.json' does not have a 'typesVersions' field.
+'package.json' does not have a 'typings' field.
+'package.json' has 'types' field 'index' that references '/Users/rajatvijay/projects/production-ts/node_modules/@types/prop-types/index'.
+File '/Users/rajatvijay/projects/production-ts/node_modules/@types/prop-types/index' does not exist.
+Loading module as file / folder, candidate module location '/Users/rajatvijay/projects/production-ts/node_modules/@types/prop-types/index', target file type 'TypeScript'.
+File '/Users/rajatvijay/projects/production-ts/node_modules/@types/prop-types/index.ts' does not exist.
+File '/Users/rajatvijay/projects/production-ts/node_modules/@types/prop-types/index.tsx' does not exist.
+File '/Users/rajatvijay/projects/production-ts/node_modules/@types/prop-types/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/rajatvijay/projects/production-ts/node_modules/@types/prop-types/index.d.ts', result '/Users/rajatvijay/projects/production-ts/node_modules/@types/prop-types/index.d.ts'.
+======== Type reference directive 'prop-types' was successfully resolved to '/Users/rajatvijay/projects/production-ts/node_modules/@types/prop-types/index.d.ts' with Package ID '@types/prop-types/index.d.ts@15.7.3', primary: true. ========
+======== Resolving type reference directive 'react', containing file '/Users/rajatvijay/projects/production-ts/__inferred type names__.ts', root directory '/Users/rajatvijay/projects/production-ts/node_modules/@types'. ========
+Resolving with primary search path '/Users/rajatvijay/projects/production-ts/node_modules/@types'.
+Found 'package.json' at '/Users/rajatvijay/projects/production-ts/node_modules/@types/react/package.json'.
+'package.json' does not have a 'typesVersions' field.
+'package.json' does not have a 'typings' field.
+'package.json' has 'types' field 'index.d.ts' that references '/Users/rajatvijay/projects/production-ts/node_modules/@types/react/index.d.ts'.
+File '/Users/rajatvijay/projects/production-ts/node_modules/@types/react/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/rajatvijay/projects/production-ts/node_modules/@types/react/index.d.ts', result '/Users/rajatvijay/projects/production-ts/node_modules/@types/react/index.d.ts'.
+======== Type reference directive 'react' was successfully resolved to '/Users/rajatvijay/projects/production-ts/node_modules/@types/react/index.d.ts' with Package ID '@types/react/index.d.ts@16.9.56', primary: true. ========
+======== Resolving type reference directive 'react-dom', containing file '/Users/rajatvijay/projects/production-ts/__inferred type names__.ts', root directory '/Users/rajatvijay/projects/production-ts/node_modules/@types'. ========
+Resolving with primary search path '/Users/rajatvijay/projects/production-ts/node_modules/@types'.
+Found 'package.json' at '/Users/rajatvijay/projects/production-ts/node_modules/@types/react-dom/package.json'.
+'package.json' does not have a 'typesVersions' field.
+'package.json' does not have a 'typings' field.
+'package.json' has 'types' field 'index.d.ts' that references '/Users/rajatvijay/projects/production-ts/node_modules/@types/react-dom/index.d.ts'.
+File '/Users/rajatvijay/projects/production-ts/node_modules/@types/react-dom/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/rajatvijay/projects/production-ts/node_modules/@types/react-dom/index.d.ts', result '/Users/rajatvijay/projects/production-ts/node_modules/@types/react-dom/index.d.ts'.
+======== Type reference directive 'react-dom' was successfully resolved to '/Users/rajatvijay/projects/production-ts/node_modules/@types/react-dom/index.d.ts' with Package ID '@types/react-dom/index.d.ts@16.9.9', primary: true. ========
+======== Resolving module 'csstype' from '/Users/rajatvijay/projects/production-ts/node_modules/@types/react/index.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+'baseUrl' option is set to '/Users/rajatvijay/projects/production-ts', using this value to resolve non-relative module name 'csstype'.
+'paths' option is specified, looking for a pattern to match module name 'csstype'.
+'baseUrl' option is set to '/Users/rajatvijay/projects/production-ts', using this value to resolve non-relative module name 'csstype'.
+Resolving module name 'csstype' relative to base url '/Users/rajatvijay/projects/production-ts' - '/Users/rajatvijay/projects/production-ts/csstype'.
+Loading module as file / folder, candidate module location '/Users/rajatvijay/projects/production-ts/csstype', target file type 'TypeScript'.
+File '/Users/rajatvijay/projects/production-ts/csstype.ts' does not exist.
+File '/Users/rajatvijay/projects/production-ts/csstype.tsx' does not exist.
+File '/Users/rajatvijay/projects/production-ts/csstype.d.ts' does not exist.
+Directory '/Users/rajatvijay/projects/production-ts/csstype' does not exist, skipping all lookups in it.
+Loading module 'csstype' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/rajatvijay/projects/production-ts/node_modules/@types/react/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/rajatvijay/projects/production-ts/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+Found 'package.json' at '/Users/rajatvijay/projects/production-ts/node_modules/csstype/package.json'.
+'package.json' does not have a 'typesVersions' field.
+File '/Users/rajatvijay/projects/production-ts/node_modules/csstype.ts' does not exist.
+File '/Users/rajatvijay/projects/production-ts/node_modules/csstype.tsx' does not exist.
+File '/Users/rajatvijay/projects/production-ts/node_modules/csstype.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' has 'types' field 'index.d.ts' that references '/Users/rajatvijay/projects/production-ts/node_modules/csstype/index.d.ts'.
+File '/Users/rajatvijay/projects/production-ts/node_modules/csstype/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/rajatvijay/projects/production-ts/node_modules/csstype/index.d.ts', result '/Users/rajatvijay/projects/production-ts/node_modules/csstype/index.d.ts'.
+======== Module name 'csstype' was successfully resolved to '/Users/rajatvijay/projects/production-ts/node_modules/csstype/index.d.ts' with Package ID 'csstype/index.d.ts@3.0.4'. ========
+======== Resolving module 'prop-types' from '/Users/rajatvijay/projects/production-ts/node_modules/@types/react/index.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+'baseUrl' option is set to '/Users/rajatvijay/projects/production-ts', using this value to resolve non-relative module name 'prop-types'.
+'paths' option is specified, looking for a pattern to match module name 'prop-types'.
+'baseUrl' option is set to '/Users/rajatvijay/projects/production-ts', using this value to resolve non-relative module name 'prop-types'.
+Resolving module name 'prop-types' relative to base url '/Users/rajatvijay/projects/production-ts' - '/Users/rajatvijay/projects/production-ts/prop-types'.
+Loading module as file / folder, candidate module location '/Users/rajatvijay/projects/production-ts/prop-types', target file type 'TypeScript'.
+File '/Users/rajatvijay/projects/production-ts/prop-types.ts' does not exist.
+File '/Users/rajatvijay/projects/production-ts/prop-types.tsx' does not exist.
+File '/Users/rajatvijay/projects/production-ts/prop-types.d.ts' does not exist.
+Directory '/Users/rajatvijay/projects/production-ts/prop-types' does not exist, skipping all lookups in it.
+Loading module 'prop-types' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/Users/rajatvijay/projects/production-ts/node_modules/@types/react/node_modules' does not exist, skipping all lookups in it.
+Directory '/Users/rajatvijay/projects/production-ts/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/Users/rajatvijay/projects/production-ts/node_modules/prop-types.ts' does not exist.
+File '/Users/rajatvijay/projects/production-ts/node_modules/prop-types.tsx' does not exist.
+File '/Users/rajatvijay/projects/production-ts/node_modules/prop-types.d.ts' does not exist.
+Found 'package.json' at '/Users/rajatvijay/projects/production-ts/node_modules/@types/prop-types/package.json'.
+'package.json' does not have a 'typesVersions' field.
+File '/Users/rajatvijay/projects/production-ts/node_modules/@types/prop-types.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' has 'types' field 'index' that references '/Users/rajatvijay/projects/production-ts/node_modules/@types/prop-types/index'.
+File '/Users/rajatvijay/projects/production-ts/node_modules/@types/prop-types/index' does not exist.
+Loading module as file / folder, candidate module location '/Users/rajatvijay/projects/production-ts/node_modules/@types/prop-types/index', target file type 'TypeScript'.
+File '/Users/rajatvijay/projects/production-ts/node_modules/@types/prop-types/index.ts' does not exist.
+File '/Users/rajatvijay/projects/production-ts/node_modules/@types/prop-types/index.tsx' does not exist.
+File '/Users/rajatvijay/projects/production-ts/node_modules/@types/prop-types/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/Users/rajatvijay/projects/production-ts/node_modules/@types/prop-types/index.d.ts', result '/Users/rajatvijay/projects/production-ts/node_modules/@types/prop-types/index.d.ts'.
+======== Module name 'prop-types' was successfully resolved to '/Users/rajatvijay/projects/production-ts/node_modules/@types/prop-types/index.d.ts' with Package ID '@types/prop-types/index.d.ts@15.7.3'. ========
+======== Resolving module 'react' from '/Users/rajatvijay/projects/production-ts/node_modules/@types/react-dom/index.d.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+'baseUrl' option is set to '/Users/rajatvijay/projects/production-ts', using this value to resolve non-relative module name 'react'.
+'paths' option is specified, looking for a pattern to match module name 'react'.
+Module name 'react', matched pattern 'react'.
+Trying substitution 'types', candidate module location: 'types'.
+Loading module as file / folder, candidate module location '/Users/rajatvijay/projects/production-ts/types', target file type 'TypeScript'.
+File '/Users/rajatvijay/projects/production-ts/types.ts' does not exist.
+File '/Users/rajatvijay/projects/production-ts/types.tsx' does not exist.
+File '/Users/rajatvijay/projects/production-ts/types.d.ts' does not exist.
+File '/Users/rajatvijay/projects/production-ts/types/package.json' does not exist.
+File '/Users/rajatvijay/projects/production-ts/types/index.ts' does not exist.
+File '/Users/rajatvijay/projects/production-ts/types/index.tsx' does not exist.
+File '/Users/rajatvijay/projects/production-ts/types/index.d.ts' exist - use it as a name resolution result.
+======== Module name 'react' was successfully resolved to '/Users/rajatvijay/projects/production-ts/types/index.d.ts'. ========
+node_modules/@types/react-dom/index.d.ts(19,5): error TS2614: Module '"../../../types"' has no exported member 'ReactInstance'. Did you mean to use 'import ReactInstance from "../../../types"' instead?
+node_modules/@types/react-dom/index.d.ts(19,20): error TS2614: Module '"../../../types"' has no exported member 'Component'. Did you mean to use 'import Component from "../../../types"' instead?
+node_modules/@types/react-dom/index.d.ts(19,31): error TS2614: Module '"../../../types"' has no exported member 'ComponentState'. Did you mean to use 'import ComponentState from "../../../types"' instead?
+node_modules/@types/react-dom/index.d.ts(20,5): error TS2614: Module '"../../../types"' has no exported member 'ReactElement'. Did you mean to use 'import ReactElement from "../../../types"' instead?
+node_modules/@types/react-dom/index.d.ts(20,19): error TS2614: Module '"../../../types"' has no exported member 'SFCElement'. Did you mean to use 'import SFCElement from "../../../types"' instead?
+node_modules/@types/react-dom/index.d.ts(20,31): error TS2614: Module '"../../../types"' has no exported member 'CElement'. Did you mean to use 'import CElement from "../../../types"' instead?
+node_modules/@types/react-dom/index.d.ts(21,5): error TS2614: Module '"../../../types"' has no exported member 'DOMAttributes'. Did you mean to use 'import DOMAttributes from "../../../types"' instead?
+node_modules/@types/react-dom/index.d.ts(21,20): error TS2614: Module '"../../../types"' has no exported member 'DOMElement'. Did you mean to use 'import DOMElement from "../../../types"' instead?
+node_modules/@types/react-dom/index.d.ts(21,32): error TS2614: Module '"../../../types"' has no exported member 'ReactNode'. Did you mean to use 'import ReactNode from "../../../types"' instead?
+node_modules/@types/react-dom/index.d.ts(21,43): error TS2614: Module '"../../../types"' has no exported member 'ReactPortal'. Did you mean to use 'import ReactPortal from "../../../types"' instead?
+src/index.tsx(11,16): error TS2686: 'React' refers to a UMD global, but the current file is a module. Consider adding an import instead.
+src/index.tsx(14,8): error TS2686: 'React' refers to a UMD global, but the current file is a module. Consider adding an import instead.
+src/index.tsx(16,12): error TS2686: 'React' refers to a UMD global, but the current file is a module. Consider adding an import instead.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
