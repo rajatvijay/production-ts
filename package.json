@@ -1,0 +1,26 @@
+{
+  "name": "production-ts",
+  "version": "1.0.0",
+  "description": "Production TS Talk Repo",
+  "main": "dist/index.js",
+  "scripts": {
+    "test:types": "npx tsd tests-types",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.56",
+    "@types/react-dom": "^16.9.9",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "tsd": "^0.13.1",
+    "typescript": "^4.0.5"
+  },
+  "keywords": [
+    "typescript",
+    "javascript",
+    "production-ts"
+  ],
+  "license": "MIT"
+}
